@@ -1,3 +1,14 @@
+Pasi pentru create .git si incarcare pe github:
+1. CMD=> CD: directorul unde este proiectul
+2. GIT INIT
+3. GIT ADD .
+4. git commit -m "comentariu commit"
+5. git status  (verificam daca este 'commit')
+6. ??? git config --global --edit /  git commit --amend --reset-author
+7. git config --global http.sslVerify false
+8. git remote add origin https://github....
+9. git push -u origin master
+
 These are common Git commands used in various situations:
 
 start a working area (see also: git help tutorial)
