@@ -9,6 +9,11 @@ Pasi pentru create .git si incarcare pe github:
 8. git remote add origin https://github....
 9. git push -u origin master
 
+erori:
+      1. eroare:Git Warning: LF will be replaced by CRLF
+         rezolvare: git config --global core.autocrlf false
+
+
 These are common Git commands used in various situations:
 
 start a working area (see also: git help tutorial)
