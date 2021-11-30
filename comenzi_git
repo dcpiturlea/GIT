@@ -6,8 +6,10 @@ Pasi pentru create .git si incarcare pe github:
 5. git status  (verificam daca este 'commit')
 6. ??? git config --global --edit /  git commit --amend --reset-author
 7. git config --global http.sslVerify false
-8. git remote add origin https://github....
+8. git remote add origin https://github....(mai nou git remote set-url origin https://github...)
 9. git push -u origin master
+10. enter user name
+11. enter password(personal token incepand cu august 2021 -  vezi: https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to)
 
 erori:
       1. eroare:Git Warning: LF will be replaced by CRLF
